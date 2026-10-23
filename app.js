@@ -22,8 +22,10 @@ function render() {
   visible.forEach(project => {
     const card = el('article', 'card');
     const art = el('div', `project-art ${['pokedex','mesa','ritmo'].includes(project.visual) ? project.visual : ''}`);
-    art.setAttribute('aria-hidden', 'true');
-    art.append(el('strong', '', project.label));
+    const image = el('img');
+    image.src = project.cover; image.alt = project.coverAlt; image.loading = 'lazy';
+    image.width = 1200; image.height = 780;
+    art.append(image);
     const body = el('div', 'card-body');
     body.append(el('span','category',project.category), el('h3','',project.name), el('p','',project.description));
     const url = safeUrl(project.url);

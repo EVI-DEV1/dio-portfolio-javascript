@@ -2,10 +2,43 @@
   "name": "Eliane Vitoriano Luiz",
   "role": "Desenvolvedora Front-end",
   "bio": "Desenvolvimento de interfaces para a web, com atenção à organização do conteúdo e à experiência de uso. Este espaço reúne projetos de aprendizagem em JavaScript e UX/UI.",
-  "skills": ["HTML", "CSS", "JavaScript", "Git", "Consumo de APIs"],
+  "skills": [
+    "HTML",
+    "CSS",
+    "JavaScript",
+    "Git",
+    "Consumo de APIs"
+  ],
   "projects": [
-    {"name":"Pokédex","category":"JavaScript","visual":"pokedex","label":"pokédex.","description":"Catálogo de Pokémon com paginação, dados da PokéAPI e detalhes em uma janela acessível.","url":"https://github.com/EVI-DEV1/dio-pokedex"},
-    {"name":"Mesa","category":"UX/UI","visual":"mesa","label":"mesa","description":"Protótipo de uma experiência de pedidos, com fluxo de navegação, wireframes e guia visual.","url":"https://github.com/EVI-DEV1/dio-prototipo-profissional-mesa"},
-    {"name":"Ritmo — pesquisa documental","category":"UX/UI","visual":"ritmo","label":"ritmo ↗","description":"Estudo documental de UX com mapas e plano de pesquisa. O projeto não inclui entrevistas com participantes.","url":"https://github.com/EVI-DEV1/dio-uxresearch-ritmo"}
+    {
+      "name": "Pokédex",
+      "category": "JavaScript",
+      "visual": "pokedex",
+      "label": "pokédex.",
+      "description": "Catálogo de Pokémon com paginação, dados da PokéAPI e detalhes em uma janela acessível.",
+      "url": "https://github.com/EVI-DEV1/dio-pokedex",
+      "cover": "assets/covers/pokedex.png",
+      "coverAlt": "Captura da Pokédex com os cartões dos Pokémon de Kanto"
+    },
+    {
+      "name": "Mesa",
+      "category": "UX/UI",
+      "visual": "mesa",
+      "label": "mesa",
+      "description": "Protótipo de uma experiência de pedidos, com fluxo de navegação, wireframes e guia visual.",
+      "url": "https://github.com/EVI-DEV1/dio-prototipo-profissional-mesa",
+      "cover": "assets/covers/mesa.png",
+      "coverAlt": "Captura do protótipo Mesa: cardápio e seleção de pratos"
+    },
+    {
+      "name": "Ritmo — pesquisa documental",
+      "category": "UX/UI",
+      "visual": "ritmo",
+      "label": "ritmo ↗",
+      "description": "Estudo documental de UX com mapas e plano de pesquisa. O projeto não inclui entrevistas com participantes.",
+      "url": "https://github.com/EVI-DEV1/dio-uxresearch-ritmo",
+      "cover": "assets/covers/ritmo.png",
+      "coverAlt": "Captura do mapa de afinidades do estudo documental Ritmo"
+    }
   ]
 }
