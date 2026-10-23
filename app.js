@@ -44,7 +44,7 @@ async function loadProfile() {
   loading = true; retry.hidden = true; status.textContent = 'Carregando projetos…';
   filters.forEach(button => { button.disabled = true; });
   try {
-    const response = await fetch('./data/profile.json');
+    const response = await fetch('./data/profile.json?v=20261023');
     if (!response.ok) throw new Error('Resposta inválida');
     const data = await response.json();
     if (!Array.isArray(data.projects) || !Array.isArray(data.skills)) throw new Error('Dados inválidos');
